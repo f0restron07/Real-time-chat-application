@@ -2,7 +2,7 @@
   "name": "chat-app-yt",
   "version": "1.0.0",
   "description": "![Demo App](https://i.ibb.co/gFSMzKN/1.png)",
-  "main": "server.js",
+  "main": "backend/server.js",
   "scripts": {
     "server": "nodemon backend/server.js",
     "start": "node backend/server.js",
@@ -20,7 +20,6 @@
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.4.0",
     "mongoose": "^8.2.1",
-    "moongose": "^1.0.0",
     "socket.io": "^4.7.4"
   },
   "devDependencies": {
